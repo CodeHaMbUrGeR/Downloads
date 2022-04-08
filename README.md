@@ -2,8 +2,8 @@
 
 * static
 * templates
-* .gitignore (optional)
 * app.py
+* .gitignore (optional)
 * requirements.txt (optional)
 
 ### Wird zusätzlich nur für die Online Anwendung benötigt:
