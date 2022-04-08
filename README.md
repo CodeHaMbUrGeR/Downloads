@@ -1,9 +1,10 @@
-### Dieses Repository dient als "Download-Center" für verschiedene Setups.
+### Wird für die Lokale Anwendung benötigt:
 
-Jedes Setup hat eine eigene Branch, in welcher sich die Ordnerstrukturen mit den Dateien befinden. Die Setup's können so einzeln gespeichert, geupdatet  und auch heruntergeladen werden.
+* app.py
+* .gitignore (optional)
+* requirements.txt (optional)
 
-### Hier geht es zu meinen Wiki's auf GitHub:
+### Wird zusätzlich nur für die Online Anwendung benötigt:
 
-* **[Python](https://github.com/CodeHaMbUrGeR/Python/wiki)**
-
-* **[VBA](https://github.com/CodeHaMbUrGeR/VBA/wiki)**
+* Procfile
+* runtime.txt
