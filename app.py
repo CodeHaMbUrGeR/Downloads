@@ -7,12 +7,12 @@ app.secret_key = 'secret_key'  # wird für session benötigt
 
 @app.route("/", methods=["GET", "POST"])
 def index():
-    return redirect(url_for('index'))  # direkte Weiterleitung -> index
+    return redirect(url_for('home'))  # direkte Weiterleitung -> index
 
 
-@app.route("/index", methods=["GET", "POST"])
-def index():
-    return render_template('start.html')  # Anzeige der Seite index.html
+@app.route("/home", methods=["GET", "POST"])
+def home():
+    return render_template('home.html')  # Anzeige der Seite index.html
 
 
 @app.route("/login", methods=["GET", "POST"])
